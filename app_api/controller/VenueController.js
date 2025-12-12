@@ -73,7 +73,7 @@ const addVenue = async function (req, res) {
             },
         ],
     }).then(function(response){
-        createResponse(res,"201",error);
+        createResponse(res,"201",response);
 
     });
     }catch(error){
