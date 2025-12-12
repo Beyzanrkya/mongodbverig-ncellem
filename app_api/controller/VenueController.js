@@ -56,7 +56,7 @@ const listVenues = function (req, res) {
 const addVenue = async function (req, res) {
     try{ await Venue.create({
         ...req.body,
-        coordinates:[RegExp.body.lat,req.body.long],
+        coordinates:[req.body.lat,req.body.long],
         hours:[
             {
                 day:req.body.days1,
