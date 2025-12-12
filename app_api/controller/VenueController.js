@@ -59,14 +59,14 @@ const addVenue = async function (req, res) {
         coordinates:[RegExp.body.lat,req.body.long],
         hours:[
             {
-                days:req.body.days1,
+                day:req.body.days1,
                 open:req.body.open1,
                 close:req.body.close1,
                 isClosed:req.body.isClosed1,
 
             },
             {
-                 days:req.body.days2,
+                 day:req.body.days2,
                 open:req.body.open2,
                 close:req.body.close2,
                 isClosed:req.body.isClosed2,
