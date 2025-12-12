@@ -117,7 +117,7 @@ var createComment=function(req,res,incomingVenue)
 var calculateLastRating=function(incomingVenue, isDeleted)
 {
     var i,
-    numomments,
+    numComments,
     avgRating,
     sumRating=0;
     var numComments=incomingVenue.comments.length;
