@@ -118,7 +118,7 @@ try{
         },
         {new:true}
     );
-    createResponse(res,201,updateVenue);
+    createResponse(res,201,updatedVenue);
 }catch(error){
     createResponse(res,400,{ststus:"güncelleme başarısız",error});
     
