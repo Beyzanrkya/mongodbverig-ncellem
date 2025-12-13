@@ -144,7 +144,7 @@ var updateRating=function(venueid,isDeleted)
     .exec()
     .then(function(venue)
     {
-        calculaateLasttRating(venue,isDeleted);
+        calculateLastRating(venue,isDeleted);
         });
     };
     
