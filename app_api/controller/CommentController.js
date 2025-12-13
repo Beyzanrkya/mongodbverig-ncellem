@@ -7,7 +7,7 @@ const createResponse = function (res, status, content) {
  const addComment=async function(req,res)
     {
         try{
-            await Venue.findById(req.params.venuid)
+            await Venue.findById(req.params.venueid)
             .select("comments")
             .exec()
             .then((incomingVenue)=>{
